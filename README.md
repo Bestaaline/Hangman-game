@@ -7,5 +7,7 @@ solution = random.choice(choix)
 
 solution = "python"
 tentatives = 7
+#creation d'une variable qui va servir d'affichage 
 affichage = ""
+
 lettres_trouvees = ""
