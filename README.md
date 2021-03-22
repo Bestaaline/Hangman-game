@@ -11,3 +11,9 @@ tentatives = 7
 affichage = ""
 
 lettres_trouvees = ""
+
+
+
+while tentatives > 0:
+  print("\nMot à deviner : ", affichage)
+  proposition = input("proposez une lettre : ")
