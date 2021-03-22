@@ -24,4 +24,16 @@ while tentatives > 0:
 while tentatives > 0:
   print("\nMot à deviner : ", affichage)
   proposition = input("proposez une lettre : ")
+  
+  
+  
+  
+
+while tentatives > 0:
+  print("\nMot à deviner : ", affichage)
+  proposition = input("proposez une lettre : ")
+  
+  
+  
+  
 
