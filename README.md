@@ -19,14 +19,7 @@ while tentatives > 0:
       lettres_trouvees = lettres_trouvees + proposition
       print("-> very well ! carry on")
       
-        if proposition in solution:
-      lettres_trouvees = lettres_trouvees + proposition
-      print("-> very well ! carry on")
-      
-        if proposition in solution:
-      lettres_trouvees = lettres_trouvees + proposition
-      print("-> very well ! carry on")
-  
+
  
   
   
