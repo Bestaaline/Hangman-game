@@ -1,9 +1,6 @@
 #Module qui va etre utiliser au cours de ce jeu
 import random
 
-#Differents choix disponibles
-choix = ["informatique", "python", "random", "variable"]
-solution = random.choice(choix)
 
 solution = "python"
 tentatives = 7
@@ -17,6 +14,18 @@ lettres_trouvees = ""
 while tentatives > 0:
   print("\nMot à deviner : ", affichage)
   proposition = input("proposez une lettre : ")
+  
+    if proposition in solution:
+      lettres_trouvees = lettres_trouvees + proposition
+      print("-> very well ! carry on")
+      
+        if proposition in solution:
+      lettres_trouvees = lettres_trouvees + proposition
+      print("-> very well ! carry on")
+      
+        if proposition in solution:
+      lettres_trouvees = lettres_trouvees + proposition
+      print("-> very well ! carry on")
   
  
   
