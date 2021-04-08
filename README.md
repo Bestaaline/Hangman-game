@@ -39,6 +39,19 @@ while tentatives > 0:
         print("/||           ")
       if tentatives<=6:
         print("==============\n")
+        
+  affichage = ""
+  for x in solution:
+      if x in lettres_trouvees:
+          affichage += x + " "
+      else:
+          affichage += "_ "
+
+  if "_" not in affichage:
+      print(">>> Gagné! <<<")
+      break
+
+print("\n    *Game over !*    ")
 
       
 
